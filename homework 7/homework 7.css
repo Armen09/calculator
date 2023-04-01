@@ -1,0 +1,58 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.child2, .child3, .child1{
+    height:33px;
+    width:33px;
+}
+.parent, .parent2{
+    height:100%;
+    width:62%;
+    margin-left: 19%;
+    margin-right: 19%;;
+    display:flex;
+    justify-content: space-between;
+}
+.child{
+    font-size: 23px;
+    margin-left:10px
+}
+.child4{
+    width:33px;
+    height:33px;
+}
+.nav{
+    color:aliceblue;
+    background-color:black;
+    padding:4px
+}
+.www{
+    color:black;
+    background-color:gainsboro;
+    margin:5px;
+    size: 566px;
+} 
+.w{
+    width:100%;
+}
+.sss{
+    margin-left:19%;
+    margin-top:6px;
+}
+.eee{
+    width:62%;
+    margin-left:19%;
+    margin-right: 19%;
+    display:flex;
+    justify-content: space-between;
+}
+img{
+   margin-left: 19%;;
+}
+button{
+
+}
+.ddd{
+    
+}

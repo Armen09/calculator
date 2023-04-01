@@ -1,0 +1,42 @@
+.container{
+    width: 20%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+.header{
+    text-align: center;
+}
+.name {
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    margin: 0 auto;
+}
+.name input {
+    height: 23px;
+    width: 48%;
+}
+.contact input{
+    margin-bottom: 3px;
+    width: 98%;
+    height: 23px;
+    margin-left:8px;    
+}
+.navbar select{
+    width: 32%;
+}
+.summer{
+    text-align: center;
+}
+button{
+    background-color:darkgreen;
+    color:white;
+    width: 233px;
+    height:44px;  
+    font-size:larger; 
+}
+.as{
+    padding: 180px;
+} 

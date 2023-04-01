@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="left-box">
+            <div class="wrapper">
+                <img src="./img/robo.png" class="logo" alt="">
+                <div class="search">
+                    <img src="./img/search.png" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="vertical"></div>
+                <ul>
+                    <li><a href="#">Production</a></li>
+                    <li><a href="#">Facility</a></li>
+                    <li><a href="#">Mechanism</a></li>
+                    <li><a href="#">Our team</a></li>
+                    <li><a href="#">Our ideas</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="right-box">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Products</a></li>
+                </ul>
+            </nav>
+            <h2>The Next <br> Generation</h2>
+            <div class="robot">
+                <img src="./img/robo.png" alt="">
+                <h1>Robotics</h1>
+                <div class="features">
+                    <div>
+                        <small>Watch Preview</small>
+                        <img src="./img/play.png" alt="">
+                    </div>
+                    <div>
+                        <small>The Making</small>
+                        <img src="./img/settings.png" alt="">
+                    </div>
+                    <div>
+                        <small>Download PDF</small>
+                        <img src="./img/download.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="circle"></div>
+            <div class="pagination">
+                <ul>
+                    <li class="active"><a href="#">01</a></li>
+                    <li><a href="#">02</a></li>
+                    <li><a href="#">03</a></li>
+                    <li><a href="#">04</a></li>
+                    <li><a href="#">05</a></li>
+                </ul>
+            </div>
+<img src="./img/volume.png" alt="" class="volume">
+        </div>
+    </div>
+    <div class="cursore"></div>
+    <div class="LargeCursore"></div>
+    <script>
+        var cursore = document.querySelector(".cursore")
+        var LargeCursore = document.querySelector(".LargeCursore")
+
+        document.onmousemove = function(e){
+          cursore.style.left = (e.pageX-5)+"px"
+          cursore.style.top = (e.pageY-5)+"px"
+
+          cursore.style.display = "block"
+
+          LargeCursore.style.left = (e.pageX-22)+"px"
+          LargeCursore.style.top = (e.pageY-22)+"px"
+
+          LargeCursore.style.display = "block"
+        }
+    </script>
+    
+</body>
+</html>

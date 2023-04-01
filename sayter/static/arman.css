@@ -1,0 +1,24 @@
+.image{
+    height:60px;
+    width:78px;
+}
+.div1{
+    width:100%;
+    height: 166px;
+    display:flex;
+    justify-content: end;
+}
+.header{
+    display: inline;
+}
+.div2{
+   width:50%;
+    background-color:darkturquoise;
+}
+.p{
+    display:inline;
+}
+.div3{
+    display:flex;
+    flex-wrap: wrap;
+}
