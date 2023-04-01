@@ -29,7 +29,8 @@
     background-color: blue;
     color:#fff;
     font-size: 35px;
-    cursor:pointer
+    cursor:pointer;
+    border-radius: 50%;
 }
 .operator{
     margin-left:20px;
